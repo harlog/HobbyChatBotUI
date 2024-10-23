@@ -1,0 +1,36 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-window {
+  border: 1px solid #ccc;
+  flex-grow: 1; /* Allow the chat window to grow and take up available space */
+  overflow-y: auto; /* Enable scrolling */
+  padding: 10px;
+  margin-bottom: 10px; /* Space for the input field */
+}
+
+.user-message {
+  background-color: #e0f7fa; /* Light blue for user messages */
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: right; /* Align user messages to the right */
+}
+
+.bot-message {
+  background-color: #ffe0b2; /* Light orange for bot messages */
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-align: left; /* Align bot messages to the left */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
